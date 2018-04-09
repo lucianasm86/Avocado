@@ -2,6 +2,10 @@
     font-family: hobo;
     src: url(../fonts/hobostdmedium.ttf);
 }
+
+body {
+    background-color: #f7f2d5;
+}
 /* NAVIGATION BAR */
 nav {
     background-color: #f09773;
@@ -36,5 +40,36 @@ div.navigation {
 /* SEARCH BAR */
 .search {
     overflow: hidden;
-    background-color: #f7f2d5;
+    background-color: #f0f0f0;
+    display: inline-block;
+    position: absolute;
+    left: 66%;
+    bottom: 70%;
+    font-size: 35px;
+    box-shadow: 5px 10px #888888;
+    height: 61px;
+    font-family: Arial;
+}
+
+.search input {
+    background-color: #f0f0f0;
+    color: #c0c0c0;
+}
+/* IMAGE */
+.image {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+/* TEXT */
+.text {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    left: 54%;
+}
+
+.text p {
+    font-family: hobo;
+    color: #8cad85;
+    font-size: 45px;
 }
