@@ -51,25 +51,90 @@ div.navigation {
     font-family: Arial;
 }
 
+button {
+    border-style: none;
+    background-color: #f0f0f0;
+}
+
 .search input {
     background-color: #f0f0f0;
     color: #c0c0c0;
-}
-/* IMAGE */
-.image {
-    margin-top: 10%;
-    margin-left: 10%;
-}
-/* TEXT */
-.text {
-    display: inline-block;
-    position: absolute;
-    top: 45%;
-    left: 54%;
+    border-style: none;
 }
 
-.text p {
-    font-family: hobo;
+/* MAIN/MIDDLE */
+.imagentext {
+    text-align: center;
+}
+.sec {
+    width: 40%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
     color: #8cad85;
-    font-size: 45px;
+    font-family: hobo;
+    font-size: 43px;
+    margin-left: 55px;
+    font-weight: 100;
+}
+
+span {
+    color: #f09773;
+}
+
+span.tm {
+    font-weight: 600;
+    color: #8cad85;
+}
+
+/* BUTTONS */
+.buttons {
+    display: inline-block;
+    position: absolute;
+    left: 55%;
+    top: 70%;
+}
+
+.buttons button {
+    display: inline-block;
+    font-size: 30px;
+    padding: 25px;
+    text-align: center;
+    margin: 15px;
+    font-family: arial;
+    color: #ffffff;
+    background-color: #8cad85;
+    font-size: 20px;
+
+}
+
+#orange {
+    background-color: #f09773;
+}
+
+/* FOOTER */
+footer.socialicons {
+    position: absolute;
+    bottom: 0;
+}
+.socialicons {
+    background-color: #8cad85;
+}
+
+.socialicons li {
+    display: inline-block;
+    height: 100px;
+}
+
+.socialicons ul li a {
+    color: #f7f2d5;
+    font-size: 20px;
+
 }
