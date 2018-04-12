@@ -5,6 +5,7 @@
 
 body {
     background-color: #f7f2d5;
+    margin: 0
 }
 /* NAVIGATION BAR */
 nav {
@@ -121,20 +122,34 @@ span.tm {
 
 /* FOOTER */
 footer.socialicons {
+    display: inline-block;
     position: absolute;
     bottom: 0;
 }
 .socialicons {
     background-color: #8cad85;
+    height: 160px;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
 .socialicons li {
     display: inline-block;
-    height: 100px;
+    height: 90px;
+    padding-right: 25px;
+    margin-top: 60px;
+}
+
+.socialicons ul {
+    text-align: center;
 }
 
 .socialicons ul li a {
     color: #f7f2d5;
-    font-size: 20px;
-
+    font-size: 30px;
 }
